@@ -50,23 +50,23 @@
 
 % Section formatting
 \titleformat{\section}{
-  \vspace{-2pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+  \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
 
 % Subheadings
 \newcommand{\resumeSubheading}[4]{
-  \item
+  \vspace{-2pt}\item
   \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
-    \textbf{\Large#1} & \textbf{\small #2} \\
-    \textit{\large#3} & \textit{\small #4} \\
-  \end{tabular*}
+    \textbf{\large#1} & \textbf{\small #2} \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-4pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
-  \item
+  \vspace{-2pt}\item
   \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
-    \textbf{\large#1} & \textbf{\small #2}\\
-  \end{tabular*}
+    \textbf{\normalsize#1} & \textbf{\small #2}\\
+  \end{tabular*}\vspace{-4pt}
 }
 
 %---------- RESUME ----------
@@ -81,11 +81,9 @@
     \href{https://notmaneesh23.github.io/PortfolioDeploy/#}{Portfolio}
 \end{center}
 
-\vspace{4pt}
+\vspace{2pt}
 \noindent
-Machine Learning Engineer specializing in \textbf{Computer Vision and LLM-based automation}, with hands-on experience
-building \textbf{real-time visual inspection and safety analytics systems} for operational environments
-across edge and cloud platforms.
+\small Machine Learning Engineer specializing in \textbf{Computer Vision and LLM-based automation}, with hands-on experience building \textbf{real-time visual inspection and safety analytics systems} for operational environments across edge and cloud platforms.
 
 %----------- EDUCATION -----------
 \section{\color{airforceblue}EDUCATION}
@@ -118,7 +116,7 @@ across edge and cloud platforms.
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
-
+\vspace{-4pt}
 %----------- TECHNICAL SKILLS -----------
 \section{\color{airforceblue}TECHNICAL SKILLS}
 \begin{itemize}[leftmargin=0in, label={}]
@@ -128,7 +126,7 @@ across edge and cloud platforms.
   \item \textbf{Infrastructure \& DevOps:} Terraform, Kubernetes, GitHub Actions, Cloud Networking
   \item \textbf{Programming Languages:} Python, Java, C
 \end{itemize}
-
+\vspace{-4pt}
 %----------- PROJECTS -----------
 \section{\color{airforceblue}PROJECTS}
 \resumeSubHeadingListStart
